@@ -28,7 +28,7 @@
                             {if $List@first}
                                 <div id="time" data-time="{$List.timeque|time}"></div>
                                 <div id="bx" class="shipyardd1"></div>
-                                <span class="shipyardd2">(в процессе)</span>
+                                <span class="shipyardd2">{$LNG.bd_operating}</span>
                                 <span class="onlistremov"><span id="auftr0">{$List.amount}</span></span>
                             {/if}
                                 <span class="onlistrenum">{$List@iteration}</span>

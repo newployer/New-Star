@@ -618,7 +618,7 @@ class ShowAccountEditorPage extends AbstractAdminPage
                             $GLOBALS['DATABASE']->query ("UPDATE ".PLANETS." SET `galaxy` = '".$galaxy."', `system` = '".$system."', `planet` = '".$planet."' WHERE `id` = '".$id."' AND `universe` = '".Universe::current()."';");
 
                         } else {
-                            if(PlayerUtil::checkPosition(Universe::current(), $galaxy, $system, $planet, $P['planet_type']))
+                            if(PlayerUtil::isPositionFree(Universe::current(), $galaxy, $system, $planet, $P['planet_type']))
                             {
                                 $this->printMessage($LNG['ac_pla_error_planets5'], true, array('?page=accounteditor&edit=planets', 3));
                             }

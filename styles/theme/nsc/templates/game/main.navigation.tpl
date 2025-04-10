@@ -42,7 +42,7 @@
             <a class="nuovomenusinistra" href="game.php?page=buildings" id="munu_build">{$LNG.lm_buildings}</a>
             {/if}
             {if isModuleAvailable($smarty.const.MODULE_RESSOURCE_LIST)}
-            <a class="nuovomenudestra tooltip" href="game.php?page=resources" id="munu_resources" data-tooltip-content="{$LNG.lm_resources}"><img src="{$dpath}img/iconav/resources.png" class="oimgaltro"></a>
+            <a class="nuovomenudestra tooltip" href="game.php?page=resources" id="munu_resources" data-tooltip-content="{$LNG.lm_resources}"><img src="{$dpath}img/iconav/resources.png" class="imgovernuovo"></a>
             {/if}
             <!-- flotta hangar -->
             {if isModuleAvailable($smarty.const.MODULE_SHIPYARD_FLEET)}
@@ -57,7 +57,7 @@
             <!-- Orbita -->
             <a class="nuovomenusinistra" href="game.php?page=fleetTable" id="munu_orbita">{$LNG.lm_fleet}</a>
             {if isModuleAvailable($smarty.const.MODULE_SIMULATOR)}
-            <a class="nuovomenudestra tooltip" href="game.php?page=battleSimulator" id="munu_fleetable" data-tooltip-content="{$LNG.lm_battlesim}"><img src="{$dpath}img/iconav/target.png" class="oimgaltro"></a>	
+            <a class="nuovomenudestra tooltip" href="game.php?page=battleSimulator" id="munu_fleetable" data-tooltip-content="{$LNG.lm_battlesim}"><img src="{$dpath}img/iconav/target.png" class="imgovernuovo"></a>	
             {/if}            
             <!-- alleanza-->
             {if isModuleAvailable($smarty.const.MODULE_ALLIANCE)}
@@ -72,7 +72,7 @@
             <a class="nuovomenusinistra" href="game.php?page=arsenal">{$LNG.lm_ars}</a>
             {/if}
             {if isModuleAvailable($smarty.const.MODULE_CONTAINER)}
-            <a class="nuovomenudestra tooltip" href="game.php?page=conteiner" id="munu_fleetable" data-tooltip-content="{$LNG.lm_container}"><img src="{$dpath}img/iconav/arsenal.png" class="oimgaltro"></a>	
+            <a class="nuovomenudestra tooltip" href="game.php?page=conteiner" id="munu_fleetable" data-tooltip-content="{$LNG.lm_container}"><img src="{$dpath}img/iconav/arsenal.png" class="imgovernuovo"></a>	
             {/if}
             {if isModuleAvailable($smarty.const.MODULE_OFFICIER)}
             <a class="nuovomenusinistra" href="game.php?page=officier" id="munu_senat">{$LNG.lm_officiers}</a>
@@ -82,7 +82,7 @@
             <a class="nuovomenusinistra" href="game.php?page=minerals" id="munu_senat">{$LNG.lm_minerals}</a>
             {/if}
             {if isModuleAvailable($smarty.const.MODULE_DETAILS)}
-            <a class="nuovomenudestra tooltip" href="game.php?page=details" id="munu_fleetable" data-tooltip-content="{$LNG.lm_details}"><img src="{$dpath}img/iconav/blackmarket.png" class="oimgaltro"></a>	
+            <a class="nuovomenudestra tooltip" href="game.php?page=details" id="munu_fleetable" data-tooltip-content="{$LNG.lm_details}"><img src="{$dpath}img/iconav/blackmarket.png" class="imgovernuovo"></a>	
             {/if}
             <!-- ufficiali governatori -->
             {if isModuleAvailable($smarty.const.MODULE_GALAXY)}
